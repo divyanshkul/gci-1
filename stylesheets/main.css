@@ -45,12 +45,13 @@
   width: 100%;
   position: relative;
   margin: auto;
-  margin-top: 90px;
+  margin-top: 80px;
 }
 
 
 .menu-item {
     font-family: 'Raleway', sans-serif;
+    margin-top: 10px;
 }
 
 .active-menu {
@@ -70,7 +71,7 @@
   left: 0;
   right: 0;
   margin: auto;
-  width: 75%;
+  width: 80%;
   bottom: 8px;
   text-align: center;
   font-weight: 800;
@@ -763,7 +764,7 @@ figure.effect-gcihover:hover figcaption::before {
 }
 
 .navbar-brand {
-    margin-top: -7px;
+    margin-top: -1px;
 }
 
 .ribbon {
@@ -873,4 +874,8 @@ body {
     display: block;
   }
 }
-
+.codein_logo{
+  margin-top: 10px;
+  margin-left: 10px;
+  height: 75px;
+}

@@ -38,20 +38,21 @@
               <span class="icon-bar"></span>
             </button>
             <a class="navbar-brand" href="">
-              <img src="./images/jbosscommunity.png" height="70">
+              <img src="./images/jbosscommunity.png" height="60" width="280">
             </a>
           </div>
           <div class="collapse navbar-collapse" id="collapse">
             <ul class="nav navbar-nav" id="menu">
-              <li><a class="menu-item" href="#welcome"><h3>Welcome</h3></a></li>
-              <li><a class="menu-item" href="#mentors"><h3>Mentors</h3></a></li>
-              <li><a class="menu-item" href="#contributors"><h3>Contributors</h3></a></li>
-              <li><a class="menu-item" href="#students"><h3>Students</h3></a></li>
-              <li><a class="menu-item" href="#issues"><h3>Issues</h3></a></li>
-              <li><a class="menu-item" href="https://blog.jboss-outreach.org/"><h3>Blog</h3></a></li>
+              <li><a class="menu-item" href="#welcome"><h4>Welcome</h4></a></li>
+              <li><a class="menu-item" href="#mentors"><h4>Mentors</h4></a></li>
+              <li><a class="menu-item" href="#contributors"><h4>Contributors</h4></a></li>
+              <li><a class="menu-item" href="#students"><h4>Students</h4></a></li>
+              <li><a class="menu-item" href="#projects"><h4>Projects</h4></a></li>
+              <li><a class="menu-item" href="#issues"><h4>Issues</h4></a></li>
+              <li><a class="menu-item" href="https://blog.jboss-outreach.org/"><h4>Blog</h4></a></li>
               </ul>
               <a href="https://codein.withgoogle.com/organizations/jboss-community/">
-              <img src="./images/gci_logo.png" height="75" style="margin-top: 10px; margin-left: 35px;">
+              <img class="codein_logo" src="./images/gci_logo.png"  >
               </a>
           </div>
         </div>
@@ -70,7 +71,7 @@
         <div class="mySlides fade">
           <img src="http://www.wethetalent.co/wp-content/uploads/2017/08/1400_700-QSfR8wHNRjrYs5hfY6QKKLviQvrlXldmrtC85OoJslZcPOzXcTtVSTLZ5cW5QQZI.jpg" style="width:100%;">
           
-          <div class="headingText">BUILD. LEARN. WIN.</div>
+          <div class="headingText">BUILD. LEARN. CONQUER.</div>
           <div class="headingCode">
             if($("#you") == "code-lover") <br>
                 print("Come hack with us!");
@@ -145,9 +146,11 @@
         <div class="container">
 
           <!-- Mentors Section -->
+
           <section class="mentors" id="mentors" href="#mentors">
               <div class="row mentors-wrapper">
                   <!-- Start ignoring BootLintBear -->
+                  <br>
                   <h2>Mentors</h2>
                   <!-- Stop ignoring -->
                   {% for m in site.data.mentors %}
@@ -174,16 +177,16 @@
           </section>
           <!-- End of Mentor Section -->
 
-            <!--Contributor Section -->
-            
-            
+            <!--Contributor Section -->            
             <section id="contributors" href="#contributors">
                 <div class="contributors-sec">
                    <div id="contributors-list">
                       <div class="container">
                           <div id="contributors-content">
                                 <!-- Start ignoring BootLintBear -->
-                                <h2>Contributors</h2>
+                                <br> <br> 
+                                <h2 style="margin-top: 20px">Contributors</h2>
+                                <br>
                                 <!-- Stop ignoring -->
                           </div>
                       </div>
@@ -196,11 +199,12 @@
           <!-- Blank Space (for Contributor section -->
              <p style="line-height: 3500px"><br></p>
              <!-- End of blank space -->
-
+          <br><br>
           <!-- Students Section -->
           <section class="students-sec" id="students" href="#students">
               <div class="row students-wrapper">
                   <!-- Start ignoring BootLintBear -->
+                  <br>                  
                   <h2>Students</h2>
                   <!-- Stop ignoring -->
                   {% for m in site.data.students %}
@@ -231,6 +235,7 @@
           <section class="projects-sec" id="projects" href="#projects">
               <div class="row projects-wrapper">
                   <!-- Start ignoring BootLintBear -->
+                  <br>
                   <h2>Projects</h2>
                   <!-- Stop ignoring -->
                   {% for m in site.data.projects %}
@@ -256,6 +261,7 @@
           <!-- Issues Section -->
           <section class="issues-sec" id="issues" href="#issues">
               <div class="row issues-wrapper">
+                <br>
 	              <h2>Latest Issues</h2>
 	 	          <div class="container-fluid">
 		              <div id="issueList" class="list-group">
@@ -267,6 +273,7 @@
           <!-- End of Issues Section -->
 
     </section>
+    <hr>
 <!-- End of Main Content -->
 
 
