@@ -930,10 +930,9 @@ box-sizing: border-box;
   font-weight: bold;
 }
 .content {  
-  word-wrap: break-word;
- 
+  word-wrap: break-word; 
 }
-}
+
 .brand-logo {
   padding-right: 20px;
 }
@@ -969,7 +968,7 @@ box-sizing: border-box;
   color: #9E9E9E;
   opacity: 0.9;
   text-decoration: none;
-
+}
 .social-icons {
   margin-top: 10px;
 }
@@ -985,8 +984,3 @@ box-sizing: border-box;
 .heading {
   font-size: 18px;
 }
-.contents {
-  
-}
-
-
