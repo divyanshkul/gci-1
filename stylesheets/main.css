@@ -888,22 +888,22 @@ body {
   }
 }
 .footer-bottom{
-font-family: 'Open Sans', sans-serif;
-
-width: auto;
-height: auto;
-background-color:#2e2e2e;
-color: white;
-box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    width: auto;
+    height: auto;
+    background-color:#2e2e2e;
+    color: white;
+    box-sizing: border-box;
+    margin-top: 30px;
 }
 
 #row-one {
-  margin-top: 40px;
+    margin-top: 40px;
 }
 
 .fa  {  
-  color: #808080; 
-  margin-left: 40px;
+    color: #808080; 
+    margin-left: 40px;
 }
 
 .fa-facebook-square:hover {
@@ -923,64 +923,63 @@ box-sizing: border-box;
 
 }
 .fa-gitter:hover {
-
-  color: #9d3475;
+    color: #9d3475;
 }
 .heading {
-  font-weight: bold;
+    font-weight: bold;
 }
 .content {  
-  word-wrap: break-word; 
+    word-wrap: break-word; 
 }
 
 .brand-logo {
-  padding-right: 20px;
+    padding-right: 20px;
 }
 
 .project-links, .quick-links {
-  text-decoration: none;
-  color: #8c8c8c; 
+    text-decoration: none;
+    color: #8c8c8c; 
 }
 .project-links:hover, .quick-links:hover {
-  text-decoration: none;
-  color: #ffffff;
+    text-decoration: none;
+    color: #ffffff;
   
 }
 .fa , .fa:hover, i , .project-links , .project-links:hover , .quick-links , .quick-links:hover {
-  -webkit-transition: 0.5s ;
-  -moz-transition: 0.5s ;
-  -o-transition:  0.5s ;  
-  transition: 0.5s ;
+    -webkit-transition: 0.5s ;
+    -moz-transition: 0.5s ;
+    -o-transition:  0.5s ;  
+    transition: 0.5s ;
 }
 
 .contents {
-  line-height: 200%;
-  font-size: 16px;
+    line-height: 200%;
+    font-size: 16px;
 
 }
 
 .about-us{
-  line-height: 180%;
-  color: #c2c2c2;
+    line-height: 180%;
+    color: #c2c2c2;
 
 }
 .community-link, .community-link:hover, .copyright {
-  color: #9E9E9E;
-  opacity: 0.9;
-  text-decoration: none;
+    color: #9E9E9E;
+    opacity: 0.9;
+    text-decoration: none;
 }
 .social-icons {
-  margin-top: 10px;
+    margin-top: 10px;
 }
 
 
 .footer-row {
-  margin-right: -120px;
+    margin-right: -120px;
 }
 #icons-head {
-  margin-top: 20px;
+    margin-top: 20px;
 
 }
 .heading {
-  font-size: 18px;
+    font-size: 18px;
 }
