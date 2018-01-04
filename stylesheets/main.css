@@ -887,6 +887,7 @@ body {
     display: block;
   }
 }
+
 .footer-bottom{
     font-family: 'Open Sans', sans-serif;
     width: auto;
@@ -974,8 +975,6 @@ body {
 .social-icons {
     margin-top: 10px;
 }
-
-
 
 #icons-head {
     margin-top: 20px;
