@@ -907,27 +907,29 @@ body {
 }
 
 .fa-facebook-square:hover {
-    color: #3b5998;   
-
+    color: #3b5998;
 }
+
 .fa-github-square:hover {
     color: #FFFFFF;
-
 }
+
 .fa-twitter-square:hover {
     color: #55ACEE;
-
 }
+
 .fa-rss-square:hover {
     color: #f26522;
-
 }
+
 .fa-gitter:hover {
     color: #9d3475;
 }
+
 .heading {
     font-weight: bold;
 }
+
 .content {  
     word-wrap: break-word; 
 }
@@ -940,11 +942,12 @@ body {
     text-decoration: none;
     color: #8c8c8c; 
 }
+
 .project-links:hover, .quick-links:hover {
     text-decoration: none;
-    color: #ffffff;
-  
+    color: #ffffff;  
 }
+
 .fa , .fa:hover, i , .project-links , .project-links:hover , .quick-links , .quick-links:hover {
     -webkit-transition: 0.5s ;
     -moz-transition: 0.5s ;
@@ -955,31 +958,30 @@ body {
 .contents {
     line-height: 200%;
     font-size: 16px;
-
 }
 
 .about-us{
     line-height: 180%;
     color: #c2c2c2;
-
 }
+
 .community-link, .community-link:hover, .copyright {
     color: #9E9E9E;
     opacity: 0.9;
     text-decoration: none;
 }
+
 .social-icons {
     margin-top: 10px;
 }
 
 
-.footer-row {
-    margin-right: -120px;
-}
+
 #icons-head {
     margin-top: 20px;
 
 }
+
 .heading {
     font-size: 18px;
 }
