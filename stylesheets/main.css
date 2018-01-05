@@ -928,6 +928,7 @@ body {
 
 .heading {
     font-weight: bold;
+    font-size: 16px;
 }
 
 .content {  
@@ -957,7 +958,7 @@ body {
 
 .contents {
     line-height: 200%;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .about-us{
@@ -977,9 +978,8 @@ body {
 
 #icons-head {
     margin-top: 20px;
-
 }
 
-.heading {
-    font-size: 18px;
+.connectText {
+    margin-left: 25px;
 }
